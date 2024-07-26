@@ -1,12 +1,12 @@
 function NavTabs({ currentPage, handlePageChange }) {
     return (
-      <ul className="nav nav-tabs">
+      <ul className="nav nav-tabs bg-dark" data-bs-theme="dark">
         <li className="nav-item">
           <a
             href="#home"
             onClick={() => handlePageChange('Home')}
   
-            className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'Home' ? 'nav-link active' : 'nav-link text-white'}
           >
             Home
           </a>
@@ -16,7 +16,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             href="#about"
             onClick={() => handlePageChange('About')}
   
-            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'About' ? 'nav-link active' : 'nav-link text-white'}
           >
             About
           </a>
@@ -26,9 +26,9 @@ function NavTabs({ currentPage, handlePageChange }) {
             href="#project"
             onClick={() => handlePageChange('Project')}
   
-            className={currentPage === 'Project' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'Project' ? 'nav-link active' : 'nav-link text-white'}
           >
-            Blog
+            Projects
           </a>
         </li>
         <li className="nav-item">
@@ -36,7 +36,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             href="#contact"
   
             onClick={() => handlePageChange('Contact')}
-            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link text-white'}
           >
             Contact
           </a>
