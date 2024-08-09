@@ -12,7 +12,7 @@ export default function Footer() {
     return (
         <footer className="bg-dark" style={footerStyle}>
             <div className="container">
-                <span>© 2024 Alex Lapierre</span>
+                <span>© 2024 Alex LaPierre</span>
             </div>
         </footer>
     );

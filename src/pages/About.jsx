@@ -7,7 +7,7 @@ export default function About() {
                 as a social worker in Rochester, Minnesota and looking for a change in career. I also spend a lot of my time coaching wrestling whenever I can. I really enjoy camping and snowboarding. Please take a look at
                 the projects I've worked on and feel free to reach out to me with any questions!
             </p>
-            <img className="mx-auto d-block mb-5" src="../../alex.png" alt="Picture of Alex"></img>
+            <img className="img-thumbnail w-50"  src="../../jeptha.jpg" alt="Picture of Alex"></img>
         </div>
     )
 }
