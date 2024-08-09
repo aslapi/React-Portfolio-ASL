@@ -1,17 +1,18 @@
-<h1 style="color:yellow;">Alex's React Portfolio</h1>
+# Alex's React Portfolio
 
-<h2 style="color:yellow;">Description</h2>
+## Description
+
 This application showcases different information about myself, Alex LaPierre. 
 
-<h2 style="color:yellow;">Purpose</h2>
+## Purpose
 
 The purpose of this application is to showcase previous projects I've worked on as well as networking with employers that visit my site!
 
-<h2 style="color:yellow;">Installation</h2>
+## Installation
 
 There are no installation instructions. Simply click the link: https://alexlapierrereactportfolio.netlify.app to visit!
 
-<h2 style="color:yellow;">Usage</h2>
+## Usage
 
 Once you've clicked on the link, navigate through the tabs to learn more about myself!
 
